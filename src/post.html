@@ -1,0 +1,213 @@
+---
+layout: default
+title: Personal-Blog | Post
+---
+
+<article class="post">
+    <div class="post__actions">
+        <a href="index.html">вернуться назад</a>
+        <a href="#">поделиться<img class="post__actions-icon" src="assets/images/share.svg" alt="поделиться"></a>
+    </div>
+
+    <div class="post__header  post__header--open">
+        <h1 class="post__title  post__title--mb0">Как писать код?</h1>
+        <ul class="post__data">
+            <li class="post__data-item">
+                <time datetime="2020-06-21 19:20">21.06.2023</time>
+            </li>
+            <li class="post__data-item">
+                <a href="#">Создание сайтов</a>
+            </li>
+        </ul>
+    </div>
+
+    <div class="post__content">
+        <div class="post__text">
+            <h2>Title h2</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque magni deserunt perspiciatis perferendis,
+                qui voluptas laboriosam harum quas quisquam placeat eos. Laudantium mollitia rerum veritatis, possimus
+                dolores nisi aut praesentium?</p>
+
+            <h3>Title h3</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut laborum repellendus quibusdam, hic in harum
+                accusantium quos dignissimos, cupiditate asperiores distinctio, ex doloribus pariatur consequatur
+                commodi quae aspernatur assumenda nam.</p>
+
+            <p>
+                <img src="assets/images/image.jpg" alt="">
+            </p>
+
+            <h4>Причины почему я разместил здесь нумерованный список и таблицу:</h4>
+            <ol>
+                <li>Их нужно вставить в сайт согласно чек-листу</li>
+                <li>Я не придумал где еще их можно использовать в моем блоге, кроме как тут</li>
+                <li>С.М первый и второй пункт</li>
+                <li>С.М первый и второй пункт</li>
+                <li>С.М первый и второй пункт</li>
+            </ol>
+
+            <table>
+                <tr>
+                    <td>№</td>
+                    <td>Вставил</td>
+                    <td>:</td>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td colspan="2">Таблицу</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>в</td>
+                    <td>¯\_(ツ)_/¯ </td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Сайт</td>
+                    <td>xd</td>
+                </tr>
+            </table>
+
+            <p>
+                <span class="fr-video">
+                    <iframe src="https://www.youtube.com/embed/0J7_qd5sJNs?list=PLoq3Accf02PWYMRAU8RDRjSfJK52vUTo2"
+                        title="Верстка сайта HTML, GULP, SASS | Персональный блог #6" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        allowfullscreen></iframe>" frameborder="0"></iframe>
+
+                </span>
+            </p>
+        </div><!-- /. post__text-->
+
+        <div class="related">
+            <h3 class="post__subtitle">Другие публикации</h3>
+
+            <ul class="related__list">
+                <li class="related__list-item">
+                    <h4 class="related__list-title">
+                        <a href="#">Заголовок другой статьи 1</a>
+                    </h4>
+                    <time class="related__list-date" datetime="2020-06-21 19:21">21.06.2023</time>
+                </li>
+                <li class="related__list-item">
+                    <h4 class="related__list-title">
+                        <a href="#">Заголовок другой статьи 2</a>
+                    </h4>
+                    <time class="related__list-date" datetime="2020-06-21 19:21">21.06.2023</time>
+                </li>
+                <li class="related__list-item">
+                    <h4 class="related__list-title">
+                        <a href="#">Заголовок другой статьи 3</a>
+                    </h4>
+                    <time class="related__list-date" datetime="2020-06-21 19:21">21.06.2023</time>
+                </li>
+                <li class="related__list-item">
+                    <h4 class="related__list-title">
+                        <a href="#">Заголовок другой статьи 4</a>
+                    </h4>
+                    <time class="related__list-date" datetime="2020-06-21 19:21">21.06.2023</time>
+                </li>
+            </ul>
+        </div> <!-- /. related-->
+
+        <h3 class="post__subtitle">Обсуждение</h3>
+        
+        <form class="form" action="/" method="post">
+            <div class="form__group">
+                <textarea class="form__control  form__control--textarea" name="comment-text"
+                    placeholder="Текст комментария"></textarea>
+                <span class="form__line"></span>
+            </div>
+            <button class="btn  btn--blue  btn--rounded btn--sm" type="submit">Отправить</button>
+        </form>
+
+        <ul class="comments"> <!--Блок комментариев-->
+            <li class="comments__item"> <!--Первый комментарий-->
+                <div class="comments__header">
+                    <img class="comments__avatar" src="assets/images/comments_avatar1.jpg" alt="">
+                
+                    <div class="comments__author">
+                        <div class="comments__name">Elon Musk</div>
+                        <time  class="comments__pubdate" datetime="2020-12-21 19:21">1 неделю назад</time>
+                    </div>
+                </div>
+
+                <div class="comments__text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro, expedita! Laudantium quod sapiente ullam perferendis cumque nostrum sunt culpa accusamus sit natus dolore facere sint, error rerum! Distinctio, temporibus dignissimos.
+                </div>
+                <button class="comments__reply" type="button">ответить</button>
+
+                <ul class="comments"><!--Ответ на первый комментарий-->
+
+                    <li class="comments__item"><!--Ответ на первый комментарий-->
+                        <div class="comments__header">
+                            <img class="comments__avatar" src="assets/images/comments_avatar2.jpg" alt="">
+                        
+                            <div class="comments__author">
+                                <div class="comments__name">Bill Gates</div>
+                                <time  class="comments__pubdate" datetime="2020-12-21 19:21">1 неделю назад</time>
+                            </div>
+                        </div>
+                        
+                        <div class="comments__text">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro, expedita! Laudantium quod sapiente ullam perferendis cumque nostrum sunt culpa accusamus sit natus dolore facere sint, error rerum! Distinctio, temporibus dignissimos.
+                        </div>
+                        <button class="comments__reply" type="button">ответить</button>
+                    </li> 
+                </ul><!-- Конец ответа на первый комментарий-->
+            </li><!-- Конец первого комментария-->
+
+            <li class="comments__item"><!--Второй комментарий-->
+                <div class="comments__header">
+                    <img class="comments__avatar" src="assets/images/comments_avatar2.jpg" alt="">
+                
+                    <div class="comments__author">
+                        <div class="comments__name">Bill Gates</div>
+                        <time  class="comments__pubdate" datetime="2020-12-21 19:21">3 недели назад</time>
+                    </div>
+                </div>
+                
+                <div class="comments__text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro, expedita! Laudantium quod sapiente ullam perferendis cumque nostrum sunt culpa accusamus sit natus dolore facere sint, error rerum! Distinctio, temporibus dignissimos.
+                </div>
+                <button class="comments__reply" type="button">ответить</button>
+
+                <ul class="comments"> <!--Ответ на второй комментарий-->
+                    <li class="comments__item">
+                        <div class="comments__header">
+                            <img class="comments__avatar" src="assets/images/comments_avatar3.jpg" alt="">
+                        
+                            <div class="comments__author">
+                                <div class="comments__name">Mark Zuckerberg</div>
+                                <time  class="comments__pubdate" datetime="2020-12-21 19:21">2 недели назад</time>
+                            </div>
+                        </div>
+                        
+                        <div class="comments__text">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro, expedita! Laudantium quod sapiente ullam perferendis cumque nostrum sunt culpa accusamus sit natus dolore facere sint, error rerum! Distinctio, temporibus dignissimos.
+                        </div>
+                        <button class="comments__reply" type="button">ответить</button>
+
+                        <ul class="comments"> <!--Ответ на ответ ко второму комментарию-->
+                            <li class="comments__item">
+                                <div class="comments__header">
+                                    <img class="comments__avatar" src="assets/images/comments_avatar2.jpg" alt="">
+                                
+                                    <div class="comments__author">
+                                        <div class="comments__name">Bill Gates</div>
+                                        <time  class="comments__pubdate" datetime="2020-12-21 19:21">2 недели назад</time>
+                                    </div>
+                                </div>
+                                
+                                <div class="comments__text">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro, expedita! Laudantium quod sapiente ullam perferendis cumque nostrum sunt culpa accusamus sit natus dolore facere sint, error rerum! Distinctio, temporibus dignissimos.
+                                </div>
+                                <button class="comments__reply" type="button">ответить</button>
+                            </li>
+                        </ul><!--Конец ответа на ответ на второй комментарий-->
+                    </li>
+                </ul><!--Конец ответа на второй комментарий-->
+            </li> <!--Конец второго комментария-->
+        </ul> <!--Конец блока комментариев-->
+    </div><!-- /. post__content-->
+</article>
